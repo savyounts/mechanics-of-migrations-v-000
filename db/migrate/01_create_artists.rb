@@ -10,7 +10,7 @@ class CreateArtists < ActiveRecord::Migration
        t.string :name
        t.string :genre
        t.integer :age
-       t.string :hometown 
+       t.string :hometown
      end
   end
 end
